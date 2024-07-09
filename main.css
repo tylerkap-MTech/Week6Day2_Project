@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(43, 43, 43);
+    margin: 0px 20px 20px 0px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.boxLight {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(97, 97, 97);
+    margin: 0px 20px 20px 0px;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+#contentContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#boxContainer {
+    width: 480px;
+    height: 480px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
